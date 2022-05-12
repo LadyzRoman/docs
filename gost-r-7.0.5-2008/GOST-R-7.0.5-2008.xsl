@@ -275,7 +275,7 @@
           <halign>left</halign>
           <valign>top</valign>
           <format lcid="1033">{%Author:233%. }{%Title%}{ // %JournalName%}{, Vol. %Volume%}{, No. %Issue%}{,{ %Month:s%} %Year%}{ . %Pages:P. :pp. %}.</format>
-          <format lcid="1049">{%Author:249%. }{%Title%}{ // %JournalName%}{, Т. %Volume%}{, № %Issue%}{,{ %Month:s%} %Year%}{ . С. %Pages%}.</format>
+          <format lcid="1049">{%Author:249%. }{%Title%}{ // %JournalName%.}{ - { %Month:s%} %Year%.}{ - № %Issue%.}{ - С. %Pages%}.</format>
         </column>
         <sortkey></sortkey>
       </source>
@@ -331,7 +331,7 @@
           <halign>left</halign>
           <valign>top</valign>
           <format lcid="1033">{%Author:249%.}{ %Title% [Электронный ресурс]}{ // %InternetSiteTitle%: [сайт].}{ [%Year%].}{ URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
-          <format lcid="1049">{%Author:249%.}{ %Title% [Электронный ресурс]}{ // %InternetSiteTitle%: [сайт].}{ [%Year%].}{ URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
+          <format lcid="1049">{%Author:249%.}{ %Title% [Электронный ресурс].}{ // %InternetSiteTitle%.}{ [%Year%].}{ - URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
         </column>
         <sortkey></sortkey>
       </source>
