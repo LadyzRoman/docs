@@ -249,7 +249,7 @@
           <halign>left</halign>
           <valign>top</valign>
           <format lcid="1033">{%Author:233|Editor:333%.}{ %Title|ShortTitle%.{ %Edition:o% ed.}{ Vol %Volume%.}}{ %City%{ (%StateProvince%)}{: %Publisher%{, %Year%}}.}{ %Publisher%{, %Year%}.}{ %Year%.}{ %Pages% pp.}</format>
-          <format lcid="1049">{%Author:249|Editor:349%.}{ %Title|ShortTitle%.{ %Edition%-е изд.}{ Т. %Volume%.}}{ %City%{ (%StateProvince%)}{: %Publisher%{, %Year%}}.}{ %Publisher%{, %Year%}.}{ %Year%.}{ %Pages% с.}</format>
+          <format lcid="1049">{%Author:249|Editor:349%.}{ %Title|ShortTitle%.{ %Edition%-е изд.}{ Т. %Volume%.} –}{ %City%{ (%StateProvince%)}{: %Publisher%{, %Year%}}.}{ %Publisher%{, %Year%}.}{ %Year%.}{ – %Pages% с.}</format>
         </column>
       </source>
       <source type="BookSection"><!-- ok -->
@@ -262,7 +262,7 @@
           <halign>left</halign>
           <valign>top</valign>
           <format lcid="1033">{%Author:233|Editor:333%.}{ %Title|ShortTitle%{. %Edition:o% ed.}{. Vol %Volume%.}{ // In: %BookTitle%}{ / Ed. by %BookAuthor:233%}.}{ %City%{ (%StateProvince%)}{: %Publisher%{, %Year%}}.}{ %Publisher%{, %Year%}.}{ %Year%.}{ %Pages:P. :pp. %}.</format>
-          <format lcid="1049">{%Author:249|Editor:349%.}{ %Title|ShortTitle%{. %Edition%-е изд.}{. Т. %Volume%.}{ // В кн.: %BookTitle%}{ / ред. %BookAuthor:249%}.}{ %City%{ (%StateProvince%)}{: %Publisher%{, %Year%}}.}{ %Publisher%{, %Year%}.}{ %Year%.}{ С. %Pages%}.</format>
+          <format lcid="1049">{%Author:249|Editor:349%.}{ %Title|ShortTitle%{. %Edition%-е изд.}{. Т. %Volume%.}{ // В кн.: %BookTitle%}{ / ред. %BookAuthor:249%}.}{ – %City%{ (%StateProvince%)}{: %Publisher%{, %Year%}}.}{ %Publisher%{, %Year%}.}{ %Year%.}{ – С. %Pages%}.</format>
         </column>
       </source>
       <source type="JournalArticle"><!-- what's the difference between this and ArticleInAPeriodial? Use the former. -->
@@ -275,7 +275,7 @@
           <halign>left</halign>
           <valign>top</valign>
           <format lcid="1033">{%Author:233%. }{%Title%}{ // %JournalName%}{, Vol. %Volume%}{, No. %Issue%}{,{ %Month:s%} %Year%}{ . %Pages:P. :pp. %}.</format>
-          <format lcid="1049">{%Author:249%. }{%Title%}{ // %JournalName%.}{ - { %Month:s%} %Year%.}{ - № %Issue%.}{ - С. %Pages%}.</format>
+          <format lcid="1049">{%Author:249%. }{%Title%}{ // %JournalName%.}{ – { %Month:s%} %Year%.}{ – № %Issue%.}{ – С. %Pages%}.</format>
         </column>
         <sortkey></sortkey>
       </source>
@@ -289,7 +289,7 @@
           <halign>left</halign>
           <valign>top</valign>
           <format lcid="1033">{%Author:233%.}{ %Title%}{ // %PeriodicalTitle%.}{{ %Month:s%} %Year%.}{ Vol. %Volume%.}{ No. %Issue%.}{ %Pages:P. :pp. %.}</format>
-          <format lcid="1049">{%Author:249%.}{ %Title%}{ // %PeriodicalTitle%.}{{ %Month:s%} %Year%.}{ Т. %Volume%.}{ № %Issue%.}{ С. %Pages%.}</format>
+          <format lcid="1049">{%Author:249%.}{ %Title%}{ // %PeriodicalTitle%.}{ – { %Month:s%} %Year%.}{ Т. %Volume%.}{ № %Issue%.}{ – С. %Pages%.}</format>
         </column>
         <sortkey></sortkey>
       </source>
@@ -330,8 +330,8 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format lcid="1033">{%Author:249%.}{ %Title% [Электронный ресурс]}{ // %InternetSiteTitle%: [сайт].}{ [%Year%].}{ URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
-          <format lcid="1049">{%Author:249%.}{ %Title% [Электронный ресурс].}{ // %InternetSiteTitle%.}{ [%Year%].}{ - URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
+          <format lcid="1033">{%Author:249%.}{ %Title% [Электронный ресурс]}{ // %InternetSiteTitle%.}{ [%Year%].}{ – URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
+          <format lcid="1049">{%Author:249%.}{ %Title% [Электронный ресурс].}{ // %InternetSiteTitle%.}{ [%Year%].}{ – URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
         </column>
         <sortkey></sortkey>
       </source>
@@ -344,8 +344,8 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-           <format lcid="1033">{%Author:249%.}{ %Title%}{ // %InternetSiteTitle%.}{ %Year%.}{ URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
-           <format lcid="1049">{%Author:249%.}{ %Title%}{ // %InternetSiteTitle%.}{ %Year%.}{ URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
+           <format lcid="1033">{%Author:249%.}{ %Title%}{ // %InternetSiteTitle%.}{ %Year%.}{ – URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
+           <format lcid="1049">{%Author:249%.}{ %Title%}{ // %InternetSiteTitle%.}{ %Year%.}{ – URL: %URL:0s%}{ (дата обращения: %DayAccessed%.%MonthAccessed%.%YearAccessed%).}</format>
         </column>
         <sortkey></sortkey>
       </source>
